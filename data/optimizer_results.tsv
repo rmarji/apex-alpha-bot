@@ -1,0 +1,53 @@
+
+# Run started 2026-03-26T06:26:06.023102+00:00 | baseline=0.5189
+iter	score_before	score_after	kept	desc
+1	0.5189	0.5189	reverted	Lower MAX_LOSS_PER_TRADE_USD 10→4 — very tight hard cap
+2	0.5189	0.5189	reverted	Lower MAX_HOLD_HOURS 8→4 — ultra-tight time stop
+3	0.5189	0.0822	reverted	Add 'high' to REGIME_SKIP — skip high-volatility trades entirely
+4	0.5189	0.5189	reverted	Raise RSI_OVERSOLD 30→35 and RSI_OVERBOUGHT 70→65 — tighter RSI extremes
+5	0.5189	0.5189	reverted	Lower FG_EXTREME_FEAR 25→18 — only trade on extreme fear, not moderate fear
+6	0.5189	0.5189	reverted	Lower MAX_LOSS_PER_TRADE_USD 10→6 — tighter hard cap
+7	0.5189	0.5189	reverted	Lower MAX_HOLD_HOURS 8→5 — cut stale trades faster
+8	0.5189	0.5189	reverted	Raise MIN_CONFIDENCE 0.55→0.65 — aggressive threshold filter
+9	0.5189	0.5189	reverted	Raise MIN_CONFIDENCE 0.55→0.62 — fewer but higher-quality signals
+10	0.5189	0.5189	reverted	Shrink half-size tier 0.5→0.35 for low confidence trades
+11	0.5189	0.5189	reverted	Lower RISK_PER_TRADE 0.015→0.008 — minimum viable position size
+12	0.5189	0.5189	reverted	Tighten FUNDING_EXTREME_THRESHOLD 0.0001→0.00015 — only extreme funding
+13	0.5189	0.5189	reverted	Lower RISK_PER_TRADE 0.015→0.010 — reduce base position size
+14	0.5189	0.5189	reverted	Remove over-sizing tier — cap max size multiplier at 1.0
+15	0.5189	0.5189	reverted	Lower REGIME_REDUCE_FACTOR 0.80→0.55 — more aggressive size cut in high vol
+
+# Run started 2026-03-26T06:27:23.732898+00:00 | baseline=0.5267
+iter	score_before	score_after	kept	desc
+1	0.5267	0.5267	reverted	Lower MAX_LOSS_PER_TRADE_USD 10→6 — tighter hard cap
+2	0.5267	0.5267	reverted	Lower MAX_HOLD_HOURS 8→5 — cut stale trades faster
+3	0.5267	0.5267	reverted	Raise MIN_CONFIDENCE 0.55→0.62 — fewer but higher-quality signals
+4	0.5267	0.5267	reverted	Tighten FUNDING_EXTREME_THRESHOLD 0.0001→0.00015 — only extreme funding
+5	0.5267	0.5267	reverted	Lower MAX_LOSS_PER_TRADE_USD 10→4 — very tight hard cap
+6	0.5267	0.5267	reverted	Lower RISK_PER_TRADE 0.015→0.008 — minimum viable position size
+7	0.5267	0.5267	reverted	Lower RISK_PER_TRADE 0.015→0.010 — reduce base position size
+8	0.5267	0.0000	reverted	Add 'high' to REGIME_SKIP — skip high-volatility trades entirely
+9	0.5267	0.5267	reverted	Lower FG_EXTREME_FEAR 25→18 — only trade on extreme fear, not moderate fear
+10	0.5267	0.5267	reverted	Raise RSI_OVERSOLD 30→35 and RSI_OVERBOUGHT 70→65 — tighter RSI extremes
+11	0.5267	0.5267	reverted	Shrink half-size tier 0.5→0.35 for low confidence trades
+12	0.5267	0.5267	reverted	Raise MIN_CONFIDENCE 0.55→0.65 — aggressive threshold filter
+13	0.5267	0.5267	reverted	Lower MAX_HOLD_HOURS 8→4 — ultra-tight time stop
+14	0.5267	0.5267	reverted	Remove over-sizing tier — cap max size multiplier at 1.0
+15	0.5267	0.5267	reverted	Lower REGIME_REDUCE_FACTOR 0.80→0.55 — more aggressive size cut in high vol
+
+# Run started 2026-03-26T06:30:22.534792+00:00 | baseline=0.5932
+iter	score_before	score_after	kept	desc
+1	0.5932	0.5839	reverted	Lower MAX_HOLD_HOURS 8→4 — ultra-tight time stop
+2	0.5839	0.5839	reverted	Raise RSI_OVERSOLD 30→35 and RSI_OVERBOUGHT 70→65 — tighter RSI extremes
+3	0.5839	0.5839	reverted	Raise MIN_CONFIDENCE 0.55→0.65 — aggressive threshold filter
+4	0.5839	0.5839	reverted	Tighten FUNDING_EXTREME_THRESHOLD 0.0001→0.00015 — only extreme funding
+5	0.5839	0.5839	reverted	Lower RISK_PER_TRADE 0.015→0.010 — reduce base position size
+6	0.5839	0.5839	reverted	Add 'high' to REGIME_SKIP — skip high-volatility trades entirely
+7	0.5839	0.5839	reverted	Lower RISK_PER_TRADE 0.015→0.008 — minimum viable position size
+8	0.5839	0.5839	reverted	Shrink half-size tier 0.5→0.35 for low confidence trades
+9	0.5839	0.5839	reverted	Lower FG_EXTREME_FEAR 25→18 — only trade on extreme fear, not moderate fear
+10	0.5839	0.5839	reverted	Lower MAX_HOLD_HOURS 8→5 — cut stale trades faster
+11	0.5839	0.6902	kept	Lower MAX_LOSS_PER_TRADE_USD 10→6 — tighter hard cap
+12	0.6902	0.6902	reverted	Raise MIN_CONFIDENCE 0.55→0.62 — fewer but higher-quality signals
+14	0.6902	0.6902	reverted	Lower REGIME_REDUCE_FACTOR 0.80→0.55 — more aggressive size cut in high vol
+15	0.6902	0.6902	reverted	Remove over-sizing tier — cap max size multiplier at 1.0
