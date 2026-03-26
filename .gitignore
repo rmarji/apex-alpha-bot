@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+data/*.json
+data/*.csv
+logs/
+*.log
+.hl_config.json
+mirofish/backend/.env
+mirofish/backend/uploads/
+mirofish/backend/logs/
+*.key
