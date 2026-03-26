@@ -11,7 +11,7 @@ ASSETS = ["SOL", "ETH"]     # BTC excluded — consistently underperforms
 # ── Hard loss cap ────────────────────────────────────────────────────────────
 # Single-trade max loss. Overrides sizing tiers.
 # Prevents the -$17 blowout scenario (4 SL hits = -$24.55 total).
-MAX_LOSS_PER_TRADE_USD = 10.0  # Hard cap per trade in USD
+MAX_LOSS_PER_TRADE_USD = 6.0  # Hard cap per trade in USD
 
 # ── Time stop ────────────────────────────────────────────────────────────────
 # Close stale trades after N hours if 1R profit not hit.
